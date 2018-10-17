@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace LibraryCoreInner
+﻿namespace LibraryCoreInner
 {
+    using System.Reflection;
+
     public class Class1
     {
         public string GetVersion()
         {
-            return "1.0.0.0";
+            return Assembly.GetExecutingAssembly().GetName().Name;
         }
     }
 }

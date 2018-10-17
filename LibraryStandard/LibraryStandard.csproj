@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryFrameworkInner\LibraryFrameworkInner.csproj" />
+    <ProjectReference Include="..\LibraryStandardInner\LibraryStandardInner.csproj" />
+  </ItemGroup>
+
 </Project>
