@@ -1,4 +1,6 @@
-﻿namespace StandardLibrary
+﻿using System;
+
+namespace LibraryStandardInner
 {
     public class Class1
     {

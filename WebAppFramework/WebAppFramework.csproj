@@ -11,9 +11,9 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FrameworkWebApp</RootNamespace>
+    <RootNamespace>WebAppFramework</RootNamespace>
     <AssemblyName>FrameworkWebApp</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,10 +51,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -80,6 +77,20 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryCore\LibraryCore.csproj">
+      <Project>{6bc89922-cef9-4180-86d2-c8db1ece1fff}</Project>
+      <Name>LibraryCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibraryFramework\LibraryFramework.csproj">
+      <Project>{e65cc741-f9eb-4bec-96a4-ef9ef42931df}</Project>
+      <Name>LibraryFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibraryStandard\LibraryStandard.csproj">
+      <Project>{6ef6c73e-d53f-40b3-8ad2-fd29f48a8f28}</Project>
+      <Name>LibraryStandard</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

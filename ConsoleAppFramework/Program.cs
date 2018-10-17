@@ -1,4 +1,4 @@
-﻿namespace FrameworkConsoleApp
+﻿namespace ConsoleAppFramework
 {
     using System;
 
