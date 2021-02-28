@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27906.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppCore", "ConsoleAppCore\ConsoleAppCore.csproj", "{83626BC2-8B86-47DF-97D6-A216BADAE34C}"
 EndProject
@@ -17,11 +17,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppCore", "WebAppCore\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppFramework", "WebAppFramework\WebAppFramework.csproj", "{E11986E7-46AA-4102-822D-E9455904199F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryCoreInner", "LibraryCoreInner\LibraryCoreInner.csproj", "{22972FF3-99E3-42C3-9240-F96BF6247061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryCoreInner", "LibraryCoreInner\LibraryCoreInner.csproj", "{22972FF3-99E3-42C3-9240-F96BF6247061}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryFrameworkInner", "LibraryFrameworkInner\LibraryFrameworkInner.csproj", "{4F34EABD-FCB9-499E-B209-E488277C6DF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryStandardInner", "LibraryStandardInner\LibraryStandardInner.csproj", "{F902370A-A6A0-412E-9356-9E08627D9DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryStandardInner", "LibraryStandardInner\LibraryStandardInner.csproj", "{F902370A-A6A0-412E-9356-9E08627D9DC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conclusion", "Conclusion", "{66DA0EC4-83BF-4BF8-AE5A-903199E8A35D}"
+	ProjectSection(SolutionItems) = preProject
+		Conclusion.md = Conclusion.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
